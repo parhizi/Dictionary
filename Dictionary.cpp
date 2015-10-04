@@ -246,7 +246,7 @@ int n=0;
 					case 4:
 						system("clear");
 						char name3[50];
-						cout<<"Enter your desire name to be edited: ";
+						cout<<"Enter your desired stunf  dsdsassdsadsaad name to be edited: ";
 						cin.ignore(); // Ignore the newline problem when using gets with cin stream at the same time.
 						gets(name3);
 						word_list->edit(word_list, name3, n);
@@ -259,9 +259,13 @@ int n=0;
 						break;
 
 					default:
-						cout<<"Your entered value is not valid! Why don't you try again? It's not that much hard you think.";
+						cout<<"Your entered value isasdsadasdsdsad not valid! Why don't you try again? It's not that much hard you think.";
 						break;
 				}
 		}
   return 0;
 }
+
+
+
+# Adding some comment at the end!!!
