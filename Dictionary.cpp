@@ -61,7 +61,7 @@ istream& operator>>(istream& in, words &obj){
 
 // Words Class ostream Overloading friend Function Definition
 ostream& operator<<(ostream& out, words &obj){
-		out<<"The Entered word is: "<<obj.word;
+		out<<"The Entered word is, next change is here and we're doing some tests!: "<<obj.word;
 		out<<"\nThe Word Type is: "<<obj.word_type;
 		out<<"\nThe word's synonym is: "<<obj.synonym;
 		out<<"\nThe three sentence example of this word is: "<<obj.sentence_exp1<<"\n"<<obj.sentence_exp2<<"\n"<<obj.sentence_exp3<<"\n";
