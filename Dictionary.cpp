@@ -155,7 +155,7 @@ void words::edit(words *word_list, char to_be_edited[], int n){
 			int count=0;
 			for(int i=0;i<n;i++){
 				if(strcmp(whole_dictionary[i].word,to_be_edited)==0){
-					cout<<"New Word Type: ";
+					cout<<"New Word Type: and any other changes that I've made! ";
 					gets(whole_dictionary[i].word_type);
 					cout<<"New Synonym: ";
 					gets(whole_dictionary[i].synonym);
